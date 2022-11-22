@@ -1,0 +1,36 @@
+
+body{
+	margin: 0 auto;
+	width: 50%;
+}
+
+a{
+	color: wheat;
+	font-weight: 900;
+	font-size: 26px;
+	text-decoration: none;
+	background: yellow;
+}
+
+a:hover{
+	border-bottom: 2px solid orange;
+}
+
+a:nth-child(4n){
+	background: black;
+}
+
+
+a:nth-child(n+2):nth-child(-n+3){
+	background: red;
+}
+
+a:nth-child(n+5):nth-child(-n+7){
+	background: green;
+}
+
+a:last-child{
+	background: blue;
+}
+
+
