@@ -16,14 +16,16 @@ a:hover{
 	border-bottom: 2px solid orange;
 }
 
+.color ~ a
+{
+	background: red;
+}
+
+
 a:nth-child(4n){
 	background: black;
 }
 
-
-a:nth-child(n+2):nth-child(-n+3){
-	background: red;
-}
 
 a:nth-child(n+5):nth-child(-n+7){
 	background: green;
@@ -32,5 +34,3 @@ a:nth-child(n+5):nth-child(-n+7){
 a:last-child{
 	background: blue;
 }
-
-
